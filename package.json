@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+  },
+  "dependencies": {
+    "ai": "^2.1.31",
+    "dotenv": "^16.3.1",
+    "metaphor-node": "^1.0.18",
+    "openai": "^3.3.0",
+    "openai-edge": "^1.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.6",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
